@@ -213,13 +213,3 @@ ul > li.list-card-basic-webshop:before {
   margin-left: 302px;
   width: 106px;
 }
-@media screen and (max-width: 600px) {
-  .body {
-      min-width: 1156px;
-  }
-}
-@media screen and (min-width: 600px) {
-  .btn {
-    display: none;
-  }
-}
