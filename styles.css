@@ -3,10 +3,11 @@
 }
 .html {
   height: 100%;
-  font-family: 'Montserrat', sans-serif;
 }
 body {
     background-color: #141b1c;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 1156px;
 }
 
 .table {
@@ -213,8 +214,8 @@ ul > li.list-card-basic-webshop:before {
   width: 106px;
 }
 @media screen and (max-width: 600px) {
-  .table {
-    display: flex;
+  .body {
+      min-width: 1156px;
   }
 }
 @media screen and (min-width: 600px) {
