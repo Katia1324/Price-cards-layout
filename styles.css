@@ -154,7 +154,7 @@ ul > li.list_2:before {
 }
 .pop {
   position: absolute;
-  border-bottom: 18px solid #DC3F45;
+  border-bottom: 25px solid #DC3F45;
   border-left: 18px solid transparent;
   border-right: 18px solid transparent;
   height: 34px;
