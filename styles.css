@@ -8,21 +8,23 @@ body {
   background-color: #141b1c;
   font-family: 'Montserrat', sans-serif;
   min-width: 1156px;
-  display: flex;
-  align-content: center;
 }
 
 .table {
   display: flex;
-  justify-content: center;
-  align-content: center;
- 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .price-card {
   width: 380px;
   margin-right: 18px;
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+}
+.card_1 {
+    margin-right: 0;
 }
 .header {
   display: block;
