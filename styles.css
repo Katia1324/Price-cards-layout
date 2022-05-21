@@ -57,29 +57,11 @@ body {
   justify-content: center;
   margin-bottom: 40px;
 }
-.price-card__price-business {
+.price_1 {
   background-color: #3a6ba5;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 105px;
-  text-align: center;
-  color: #ffffff;
-  margin: 0;
-  display: flex;
-  justify-content: center;
 }
-.price-card__price-Webshop {
+.price_2 {
   background-color: #ec632a;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 105px;
-  text-align: center;
-  color: #ffffff;
-  margin: 0;
-  display: flex;
-  justify-content: center;
 }
 .price-card__description {
 
