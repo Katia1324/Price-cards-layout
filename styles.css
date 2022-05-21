@@ -36,12 +36,14 @@ body {
   color: #ffffff;
 }
 .subtitle {
+  display: block;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 33px;
 }
 .price-card__price {
   background-color: #5bb189;
@@ -56,7 +58,7 @@ body {
   justify-content: center;
   margin-bottom: 40px;
 }
-.price-card__price_business {
+.price-card__price-business {
   background-color: #3a6ba5;
   font-style: normal;
   font-weight: 700;
