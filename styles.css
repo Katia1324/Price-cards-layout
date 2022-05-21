@@ -29,6 +29,7 @@ body {
 .price-card__title {
   font-style: normal;
   font-weight: 700;
+  margin-top: 33px;
   font-size: 35px;
   line-height: 43px;
   text-align: center;
@@ -42,36 +43,37 @@ body {
   text-align: center;
   color: #ffffff;
 }
-.price-card-price {
+.price-card__price {
   background-color: #5bb189;
   font-style: normal;
   font-weight: 700;
   font-size: 55px;
-  line-height: 67px;
+  line-height: 105px;
   text-align: center;
   color: #ffffff;
   margin: 0;
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
-.price-card-price-business {
+.price-card__price-business {
   background-color: #3a6ba5;
   font-style: normal;
   font-weight: 700;
   font-size: 55px;
-  line-height: 67px;
+  line-height: 105px;
   text-align: center;
   color: #ffffff;
   margin: 0;
   display: flex;
   justify-content: center;
 }
-.price-card-price-Webshop {
+.price-card__price-Webshop {
   background-color: #ec632a;
   font-style: normal;
   font-weight: 700;
   font-size: 55px;
-  line-height: 67px;
+  line-height: 105px;
   text-align: center;
   color: #ffffff;
   margin: 0;
@@ -79,6 +81,7 @@ body {
   justify-content: center;
 }
 .price-card__description {
+
   margin: 40px 26px;
   font-style: normal;
   font-weight: 300;
@@ -91,53 +94,56 @@ body {
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
-  line-height: 18px;
+  line-height: 50px;
   color: #ffffff;
+}
+.list-card-basic:nth-child(odd) {
+    background-color: #2A3438;
 }
 .list-card-basic-business {
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
-  line-height: 18px;
+  line-height: 50px;
   color: #ffffff;
+}
+.list-card-basic-business:nth-child(odd) {
+    background-color: #2A3438;
 }
 .list-card-basic-webshop {
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
-  line-height: 18px;
+  line-height: 50px;
   color: #ffffff;
 }
+.list-card-basic-webshop:nth-child(odd) {
+    background-color: #2A3438;
+}
 ul > li {
-  padding-left: 20px;
   position: relative;
-  margin: 10px;
   padding-left: 22px;
   width: 380px;
   height: 50px;
+  padding-left: 37px;
   line-height: 50px;
   list-style: none;
 }
 ul > li.list-card-basic:before {
   content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
-  position: absolute;
-  top: 0;
-  left: 0;
   margin-right: 22px;
+  margin-left: -14px;
+  
 }
 ul > li.list-card-basic-business:before {
   content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
-  position: absolute;
-  top: 0;
-  left: 0;
   margin-right: 22px;
+  margin-left: -14px;
 }
 ul > li.list-card-basic-webshop:before {
   content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
-  position: absolute;
-  top: 0;
-  left: 0;
   margin-right: 22px;
+  margin-left: -14px;
 }
 .price-car__order-button {
   margin-bottom: 40px;
@@ -201,7 +207,7 @@ ul > li.list-card-basic-webshop:before {
   position: absolute;
   -webkit-transform: rotate(45deg);
   margin-left: 310px;
-  margin-top: -60px;
+  margin-top: -54px;
   line-height: 38px;
 }
 .pop {
@@ -210,6 +216,9 @@ ul > li.list-card-basic-webshop:before {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   height: 35px;
-  margin-left: 302px;
-  width: 106px;
+  margin-left: 267px;
+  width: 147px;
+}
+ul {
+    padding-inline-start: 0;
 }
