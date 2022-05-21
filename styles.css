@@ -8,14 +8,15 @@ body {
   background-color: #141b1c;
   font-family: 'Montserrat', sans-serif;
   min-width: 1156px;
+  display: flex;
+  align-content: center;
 }
 
 .table {
   display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-content: center;
+ 
 }
 .price-card {
   width: 380px;
