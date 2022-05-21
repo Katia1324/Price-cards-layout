@@ -5,9 +5,9 @@
   height: 100%;
 }
 body {
-    background-color: #141b1c;
-    font-family: 'Montserrat', sans-serif;
-    min-width: 1156px;
+  background-color: #141b1c;
+  font-family: 'Montserrat', sans-serif;
+  min-width: 1156px;
 }
 
 .table {
@@ -79,7 +79,7 @@ body {
   color: #ffffff;
 }
 .price-card__options-list:nth-child(odd) {
-    background-color: #2A3438;
+  background-color: #2a3438;
 }
 .price-card__options-list {
   font-style: normal;
@@ -100,7 +100,7 @@ ul > li {
 ul > li.price-card__options-list:before {
   content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
   margin-right: 22px;
-  margin-left: -14px;  
+  margin-left: -14px;
 }
 ul > li.list_1:before {
   content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
@@ -149,19 +149,18 @@ ul > li.list_2:before {
 .popular1 {
   position: absolute;
   -webkit-transform: rotate(45deg);
-  margin-left: 310px;
-  margin-top: -54px;
+  margin-top: -53px;
   line-height: 38px;
 }
 .pop {
   position: absolute;
-  border-bottom: 20px solid red;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  height: 35px;
+  border-bottom: 18px solid #DC3F45;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  height: 34px;
   margin-left: 267px;
   width: 147px;
 }
 ul {
-    padding-inline-start: 0;
+  padding-inline-start: 0;
 }
