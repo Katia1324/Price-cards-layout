@@ -56,7 +56,7 @@ body {
   justify-content: center;
   margin-bottom: 40px;
 }
-.price-card__price-business {
+.price-card__price_business {
   background-color: #3a6ba5;
   font-style: normal;
   font-weight: 700;
