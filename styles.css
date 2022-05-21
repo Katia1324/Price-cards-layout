@@ -12,6 +12,7 @@ body {
 
 .table {
   display: flex;
+  margin: auto;
   margin-left: 132px;
   margin-right: 115px;
 }
