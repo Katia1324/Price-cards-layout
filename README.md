@@ -3,7 +3,7 @@
 
 ### [Site link](https://fabulous-melba-bc3db2.netlify.app)
 
-Layout supports mobile (up-to-400) and desktop (up-to-1400) versions
+Layout supports 1400px
 
 ### The tech stack is:
 
