@@ -1,7 +1,7 @@
 # Price-cards-layout
 
 
-### [Site link](https://fabulous-melba-bc3db2.netlify.app)
+### [Site link](https://stately-sawine-317c53.netlify.app)
 
 Layout supports 1400px
 
