@@ -1,7 +1,7 @@
 # Price-cards-layout
 
 
-### [Site link](https://stately-sawine-317c53.netlify.app)
+### [Site link](https://inspiring-medovik-eb7159.netlify.app)
 
 Layout supports 1400px
 
