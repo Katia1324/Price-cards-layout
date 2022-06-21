@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 .html {
-  height: 100vh;
   display: flex;
 }
 body {
@@ -11,4 +10,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
+
 }
